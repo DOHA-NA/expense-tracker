@@ -1,0 +1,136 @@
+body {
+    background-color: #f8f9fa;
+    font-family: Arial, sans-serif;
+    color: #333333;
+}
+
+.navbar {
+    background-color: #8a70b5;
+    margin-bottom: 22px;
+}
+
+.grid .card {
+    border: 1px solid #383243;
+    border-radius: 12px;
+    box-shadow: 0 4px 6px rgba(66, 65, 65, 0.04);
+    background: linear-gradient(135deg, #e2dbdb 0%, #8780a0 100%);
+    overflow: hidden;
+
+}
+
+.card-header {
+    background-color: #e2d9f3;
+    color: #322942;
+    border-bottom: 1px solid #aea1c7;
+}
+
+.card-stat-1 {
+    background: linear-gradient(135deg, #663caa 0%, #8540f5 100%);
+    color: #ffffff;
+}
+
+.card-stat-2 {
+    background: linear-gradient(135deg, #6a9b8c 0%, #4bc49d 100%);
+    color: #ffffff;
+}
+
+.card-stat-3 {
+    background: linear-gradient(135deg, #baaa7a 0%, #b09543 100%);
+    color: #3d3100;
+}
+
+.form-label {
+    color: #3a2f4e;
+    font-weight: 600;
+    margin-top: 5px;
+}
+
+.form-control, .form-select {
+    border-radius: 8px;
+    border: 1px solid #d0c2ec;
+    background-color: #ffffff;
+}
+
+.form-control:focus, .form-select:focus {
+    border-color: #6610f2;
+    box-shadow: 0 0 0 0.2rem rgba(102, 16, 242, 0.15);
+}
+
+.btn-primary {
+    background-color: #776298;
+    border-color: #7537d9;
+    border-radius: 8px;
+}
+
+.btn-primary:hover {
+    background-color: #520dc2;
+    border-color: #7544c2;
+}
+
+.table th {
+    background-color: #d1cdd9;
+    color: #7352ab;
+    border-bottom: 1px solid #d0c2ec;
+}
+
+.table td {
+    vertical-align: middle;
+}
+.grid{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 8px;
+}
+
+     @media (max-width: 768px) {
+    .summary-grid {
+        grid-template-columns: 1fr; 
+    }
+
+}
+#themeToggleBtn{
+    border-radius: 10px;
+    box-shadow: #666683;
+}
+
+body.dark-mode {
+    background-color: #181825 !important;
+    color: #e1e1e6 !important;
+}
+
+body.dark-mode .card {
+    background: #2b2b3d !important;
+    border-color: #3f3f56 !important;
+    color: #ffffff !important;
+}
+
+body.dark-mode .card-header {
+    background-color: #36364d !important;
+    color: #d8b4fe !important;
+    border-bottom-color: #3f3f56 !important;
+}
+
+body.dark-mode .form-control, 
+body.dark-mode .form-select {
+    background-color: #242433 !important;
+    color: #ffffff !important;
+    border-color: #3f3f56 !important;
+}
+
+body.dark-mode .form-label {
+    color: #8967ad !important;
+}
+
+body.dark-mode .table {
+    color: #5c1a6b !important;
+}
+
+body.dark-mode .table th {
+    background-color: #36364d !important;
+    color: #d3ccd9 !important;
+    border-bottom-color: #3f3f56 !important;
+}
+
+body.dark-mode .table td {
+    border-color: #3f3f56 !important;
+}
